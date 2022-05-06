@@ -8,6 +8,7 @@ except ImportError:
     # Try backported to PY<37 `importlib_resources`.
     import importlib_resources as pkg_resources
 
+# This class designed by Hunter Mills.
 class KeywordFinder():
     '''
     class to collect positive and negative sentiment keywords and return 
