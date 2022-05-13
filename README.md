@@ -29,24 +29,16 @@ MedSpacy.
 
 ``` python
 from clinsent import KeywordFinder
-positive_keywords = ['good', 'best']
-negative_keywords = ['not good', 'worst']
-kwf = KeywordFinder(positive_keywords = positive_keywords,
-                    negative_keywords = negative_keywords)
-text = 'it was the best of times, it was the worst of times'
+
+kwf = KeywordFinder()
+text = 'bp is improving, but o2 worsening'
 hits, score = kwf.run(text)
 print('Score:', score)
 print('Hits:', hits)
 ```
 
     Score: 0.5
-    Hits: {'best': 1, 'worst': 1}
-
-**Deep learning analysis**
-
-``` python
-# Deep learning analysis
-```
+    Hits: {'improving': 1, 'worsening': 1}
 
 **Sentence segmentation**
 
@@ -60,5 +52,11 @@ print(sentence_df)
        sent_num                     text  chars  words
     0         0      Patient has low bp.     19      5
     1         1  Hx of poor a1c control.     23      6
+
+**Deep learning analysis**
+
+``` python
+# Deep learning analysis
+```
 
 ## References
