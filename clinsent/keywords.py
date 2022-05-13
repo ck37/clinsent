@@ -1,22 +1,17 @@
 from collections import defaultdict
 import re
 
-# Via https://stackoverflow.com/a/20885799
-try:
-    import importlib.resources as pkg_resources
-except ImportError:
-    # Try backported to PY<37 `importlib_resources`.
-    import importlib_resources as pkg_resources
-
-# This class designed by Hunter Mills.
+import importlib_resources as pkg_resources
+    
+# This class created by Hunter Mills.
 class KeywordFinder():
     '''
     class to collect positive and negative sentiment keywords and return 
     sentiment score.
     '''
     def __init__(self, 
-                 positive_keywords=[], 
-                 negative_keywords=[]):
+                 positive_keywords = (pkg_resources.files("clinsent") / "resources/keywords/keywords-positive.txt").read_text().splitlines(),
+                 negative_keywords = (pkg_resources.files("clinsent") / "resources/keywords/keywords-negative.txt").read_text().splitlines()):
         '''
         init function. Cretes regex for positive and negative keywords and 
         map between positive and negative sentiment words.
