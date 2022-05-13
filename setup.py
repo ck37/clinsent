@@ -19,7 +19,7 @@ setup(
     author = 'Chris Kennedy, Hunter Mills, Julien Cobert',
     author_email = 'chrisken@gmail.com',
     packages = setuptools.find_packages(),
-    install_requires = [],
+    install_requires = ['pandas', 'spacy', 'cython', 'quicksect', 'medspacy', 'pysbd'],
     version = version['__version__'],
     long_description_content_type = "text/markdown",
     license = 'MIT',
