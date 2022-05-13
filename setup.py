@@ -9,7 +9,6 @@ version = {}
 with open(os.path.join(_here, 'clinsent', 'version.py')) as f:
     exec(f.read(), version)
     
-    
 with open(os.path.join(_here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 

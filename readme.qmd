@@ -10,8 +10,8 @@ jupyter: python3
 **Key functionality**
 
  * Keyword-based sentiment measurement
- * Deep learning-based sentiment measurement
  * Sentence segmentation
+ * *To Add: Deep learning-based sentiment measurement*
  
 This package is a work in progress.
 
@@ -29,7 +29,7 @@ We recommend python version 3.8, as [3.9 is not currently supported by PyRush](h
 
 ## Examples
 
-**Keyword analysis**
+### Keyword analysis
 
 ```{python}
 from clinsent import KeywordFinder
@@ -41,7 +41,7 @@ print('Score:', score)
 print('Hits:', hits)
 ```
 
-**Sentence segmentation**
+### Sentence segmentation
 
 ```{python}
 from clinsent import sentence_segment
@@ -50,10 +50,10 @@ sentence_df = sentence_segment("Patient has low bp. Hx of poor a1c control.")
 print(sentence_df)
 ```
 
-**Deep learning analysis**
+### Deep learning analysis
 
 ```{python}
-# Deep learning analysis
+# Add example here.
 ```
 
 ## References

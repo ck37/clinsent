@@ -4,8 +4,8 @@
 **Key functionality**
 
 -   Keyword-based sentiment measurement
--   Deep learning-based sentiment measurement
 -   Sentence segmentation
+-   *To Add: Deep learning-based sentiment measurement*
 
 This package is a work in progress.
 
@@ -25,7 +25,7 @@ MedSpacy.
 
 ## Examples
 
-**Keyword analysis**
+### Keyword analysis
 
 ``` python
 from clinsent import KeywordFinder
@@ -40,7 +40,7 @@ print('Hits:', hits)
     Score: 0.5
     Hits: {'improving': 1, 'worsening': 1}
 
-**Sentence segmentation**
+### Sentence segmentation
 
 ``` python
 from clinsent import sentence_segment
@@ -53,10 +53,10 @@ print(sentence_df)
     0         0      Patient has low bp.     19      5
     1         1  Hx of poor a1c control.     23      6
 
-**Deep learning analysis**
+### Deep learning analysis
 
 ``` python
-# Deep learning analysis
+# Add example here.
 ```
 
 ## References
