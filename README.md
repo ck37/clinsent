@@ -7,7 +7,7 @@
 -   Sentence segmentation
 -   *To Add: Deep learning-based sentiment measurement*
 
-This package is a work in progress. Manuscript under review Cobert et
+This package is a work in progress. Manuscript under review: Cobert et
 al. ([2022](#ref-cobert2022)).
 
 ## Install
