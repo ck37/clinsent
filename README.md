@@ -76,12 +76,12 @@ Examples to be added.
 
 <div id="ref-cobert2022" class="csl-entry">
 
-Cobert, J., Chiu, C., Cook, A., Gologorskaya, O., Farhan, H., Han, M.,
-Hodgson, M., Lazzereschi, D., Ashana, D., Lee, S., Smith, A. K.,
-Pirracchio, R., and Kennedy, C. J. (2022). Negativity and positivity in
-the intensive care unit: Establishing a proof-of-concept for automated
-sentiment capture in the electronic health record. *Unpublished
-Manuscript*.
+Cobert, Julien, Catherine Chiu, Allyson Cook, Oksana Gologorskaya,
+Hassan Farhan, Mary Han, MacGregor Hodgson, Danny Lazzereschi,
+Deepshikha Ashana, Sei Lee, Alexander K Smith, Romain Pirracchio, and
+Chris J Kennedy. 2022. “Negativity and Positivity in the Intensive Care
+Unit: Establishing a Proof-of-Concept for Automated Sentiment Capture in
+the Electronic Health Record.” *Under Review*.
 
 </div>
 
