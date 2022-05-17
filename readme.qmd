@@ -3,6 +3,8 @@ format: gfm
 editor: visual
 bibliography: references.bib
 jupyter: python3
+link-citations: true
+csl: style.csl
 ---
 
 # clinsent: sentiment measurement in clinical notes
@@ -13,9 +15,11 @@ jupyter: python3
  * Sentence segmentation
  * *To Add: Deep learning-based sentiment measurement*
  
-This package is a work in progress.
+This package is a work in progress. Manuscript under review @cobert2022.
 
 ## Install
+
+### Python
 
 Install the most recent code on GitHub via pip:
 
@@ -25,11 +29,15 @@ pip install git+https://github.com/ck37/clinsent/
 
 ## Dependencies
 
+### Python
+
 We recommend python version 3.8, as [3.9 is not currently supported by PyRush](https://github.com/jianlins/PyRuSH/issues/1), a dependency of MedSpacy.
 
 ## Examples
 
-### Keyword analysis
+### Python
+
+#### Keyword analysis
 
 ```{python}
 from clinsent import KeywordFinder
@@ -41,7 +49,7 @@ print('Score:', score)
 print('Hits:', hits)
 ```
 
-### Sentence segmentation
+#### Sentence segmentation
 
 ```{python}
 from clinsent import sentence_segment
@@ -50,10 +58,14 @@ sentence_df = sentence_segment("Patient has low bp. Hx of poor a1c control.")
 print(sentence_df)
 ```
 
-### Deep learning analysis
+#### Deep learning analysis
 
 ```{python}
 # Add example here.
 ```
+
+### R
+
+Examples to be added.
 
 ## References
