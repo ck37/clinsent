@@ -5,16 +5,17 @@ bibliography: references.bib
 jupyter: python3
 link-citations: true
 csl: style.csl
+output-file: ../README.md
 ---
 
 # clinsent: sentiment measurement in clinical notes
 
 **Key functionality**
 
- * Keyword-based sentiment measurement
- * Sentence segmentation
- * *To Add: Deep learning-based sentiment measurement*
- 
+-   Keyword-based sentiment measurement
+-   Sentence segmentation
+-   *To Add: Deep learning-based sentiment measurement*
+
 This package is a work in progress. Manuscript under review: @cobert2022.
 
 ## Install
