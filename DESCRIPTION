@@ -1,0 +1,31 @@
+Package: clinsent
+Title: Sentiment Measurement in Clinical Notes
+Version: 0.1.0.9000
+Authors@R:
+  c(person(given = "Chris",
+           family = "Kennedy",
+           email = "chrisken@gmail.com",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7444-2766")),
+    person(given = "Hunter",
+           family = "Mills",
+           email = "Hunter.Mills@ucsf.edu",
+           role = c("aut", "cre")),
+     person(given = "Julien",
+            family = "Cobert",
+            email = "julien.cobert@ucsf.edu",
+            role = c("aut", "cre"),
+            comment = c(ORCID = "0000-0001-9971-7535")))
+Description: 
+URL: https://github.com/ck37/clinsent
+BugReports: https://github.com/ck37/clinsent/issues
+Depends:
+    R (>= 3.1.0)
+Imports:
+    R6
+Suggests:
+    xgboost
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
