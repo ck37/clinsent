@@ -10,11 +10,11 @@ Authors@R:
     person(given = "Hunter",
            family = "Mills",
            email = "Hunter.Mills@ucsf.edu",
-           role = c("aut", "cre")),
+           role = c("aut")),
      person(given = "Julien",
             family = "Cobert",
             email = "julien.cobert@ucsf.edu",
-            role = c("aut", "cre"),
+            role = c("aut"),
             comment = c(ORCID = "0000-0001-9971-7535")))
 Description: 
 URL: https://github.com/ck37/clinsent
