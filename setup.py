@@ -25,5 +25,5 @@ setup(
     include_package_data = True,
     description = 'Tools to measure sentiment in clinical notes',
     long_description = long_description,
-    python_requires = '>=3.6',
+    python_requires = '>=3.8',
 )

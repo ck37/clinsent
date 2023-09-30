@@ -1,11 +1,10 @@
-
 # clinsent: sentiment measurement in clinical notes
 
 **Key functionality**
 
--   Keyword-based sentiment measurement
--   Sentence segmentation
--   *To Add: Deep learning-based sentiment measurement*
+- Keyword-based sentiment measurement
+- Sentence segmentation
+- *To Add: Deep learning-based sentiment measurement*
 
 This package is a work in progress.
 
@@ -25,7 +24,8 @@ pip install git+https://github.com/ck37/clinsent/
 
 ### Python
 
-This package is tested with python version 3.8, but 3.9 should also work. 
+This package is tested with python version 3.8, but 3.9 should also
+work.
 
 ## Examples
 
@@ -75,7 +75,14 @@ Examples to be added.
 
 <div id="ref-kennedy2023" class="csl-entry">
 
-Kennedy, C. J., Chiu, C., Chapman, A. C., Gologorskaya, O., Farhan, H., Han, M., Hodgson, M., Lazzareschi, D., Ashana, D., Lee, S., Smith, A. K., Espejo, E., Boscardin, J., Pirracchio, R., & Cobert, J. (2023). [Negativity and Positivity in the ICU: Exploratory Development of Automated Sentiment Capture in the Electronic Health Record. Critical Care Explorations](https://doi.org/10.1097/CCE.0000000000000960), 5(10), e0960.
+Kennedy, Chris J, Catherine Chiu, Allyson Cook Chapman, Oksana
+Gologorskaya, Hassan Farhan, Mary Han, Macgregor Hodgson, Daniel
+Lazzareschi, Deepshikha Ashana, Sei Lee, Alexander K Smith, Edie Espejo,
+John Boscardin, Romain Pirracchio, and Julien Cobert. 2023. “Negativity
+and Positivity in the ICU: Exploratory Development of Automated
+Sentiment Capture in the Electronic Health Record.” *Crit Care Explor* 5
+(10): e0960. <https://doi.org/10.1097/CCE.0000000000000960>.
+
 </div>
 
 </div>

@@ -5,7 +5,10 @@ bibliography: references.bib
 jupyter: python3
 link-citations: true
 csl: style.csl
-output-file: ../README.md
+keep-ipynb: true
+keep-md: true
+output-file: README
+output-dir: ../
 ---
 
 # clinsent: sentiment measurement in clinical notes
@@ -16,7 +19,9 @@ output-file: ../README.md
 -   Sentence segmentation
 -   *To Add: Deep learning-based sentiment measurement*
 
-This package is a work in progress. Manuscript under review: @cobert2022.
+This package is a work in progress.
+
+Citation: @kennedy2023.
 
 ## Install
 
@@ -32,7 +37,7 @@ pip install git+https://github.com/ck37/clinsent/
 
 ### Python
 
-We recommend python version 3.8, as [3.9 is not currently supported by PyRush](https://github.com/jianlins/PyRuSH/issues/1), a dependency of MedSpacy.
+This package is tested with python version 3.8, but 3.9 should also work. 
 
 ## Examples
 

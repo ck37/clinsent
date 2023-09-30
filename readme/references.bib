@@ -1,18 +1,47 @@
-@article{cobert2022,
-  title={Negativity and Positivity in the Intensive Care Unit: Establishing a Proof-of-Concept for Automated Sentiment Capture in the Electronic Health Record},
-  author={Cobert, Julien and
-Chiu, Catherine and
-Cook, Allyson and
-Gologorskaya, Oksana and
-Farhan, Hassan and
-Han, Mary and
-Hodgson, MacGregor and
-Lazzereschi, Danny and
-Ashana, Deepshikha and
-Lee, Sei and
-Smith, Alexander K and
-Pirracchio, Romain and
-Kennedy, Chris J},
-  journal={Under Review},
-  year={2022}
+
+@ARTICLE{kennedy2023,
+  title    = "Negativity and Positivity in the {ICU}: Exploratory Development
+              of Automated Sentiment Capture in the Electronic Health Record",
+  author   = "Kennedy, Chris J and Chiu, Catherine and Chapman, Allyson Cook
+              and Gologorskaya, Oksana and Farhan, Hassan and Han, Mary and
+              Hodgson, Macgregor and Lazzareschi, Daniel and Ashana, Deepshikha
+              and Lee, Sei and Smith, Alexander K and Espejo, Edie and
+              Boscardin, John and Pirracchio, Romain and Cobert, Julien",
+  abstract = "OBJECTIVES: To develop proof-of-concept algorithms using
+              alternative approaches to capture provider sentiment in ICU
+              notes. DESIGN: Retrospective observational cohort study. SETTING:
+              The Multiparameter Intelligent Monitoring of Intensive Care III
+              (MIMIC-III) and the University of California, San Francisco
+              (UCSF) deidentified notes databases. PATIENTS: Adult ($\geq$18 yr
+              old) patients admitted to the ICU. MEASUREMENTS AND MAIN RESULTS:
+              We developed two sentiment models: 1) a keywords-based approach
+              using a consensus-based clinical sentiment lexicon comprised of
+              72 positive and 103 negative phrases, including negations and 2)
+              a Decoding-enhanced Bidirectional Encoder Representations from
+              Transformers with disentangled attention-v3-based deep learning
+              model (keywords-independent) trained on clinical sentiment
+              labels. We applied the models to 198,944 notes across 52,997 ICU
+              admissions in the MIMIC-III database. Analyses were replicated on
+              an external sample of patients admitted to a UCSF ICU from 2018
+              to 2019. We also labeled sentiment in 1,493 note fragments and
+              compared the predictive accuracy of our tools to three popular
+              sentiment classifiers. Clinical sentiment terms were found in
+              99\% of patient visits across 88\% of notes. Our two sentiment
+              tools were substantially more predictive (Spearman correlations
+              of 0.62-0.84, p values < 0.00001) of labeled sentiment compared
+              with general language algorithms (0.28-0.46). CONCLUSION: Our
+              exploratory healthcare-specific sentiment models can more
+              accurately detect positivity and negativity in clinical notes
+              compared with general sentiment tools not designed for clinical
+              usage.",
+  journal  = "Crit Care Explor",
+  volume   =  5,
+  number   =  10,
+  pages    = "e0960",
+  month    =  oct,
+  year     =  2023,
+  url = "https://doi.org/10.1097/CCE.0000000000000960",
+  keywords = "computer-assisted decision-making; critical care; critical care
+              outcomes; natural language processing; sentiment analysis",
+  language = "en"
 }
