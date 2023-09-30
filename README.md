@@ -7,8 +7,9 @@
 -   Sentence segmentation
 -   *To Add: Deep learning-based sentiment measurement*
 
-This package is a work in progress. Manuscript under review: Cobert et
-al. ([2022](#ref-cobert2022)).
+This package is a work in progress.
+
+Citation: Kennedy et al. ([2023](#ref-kennedy2023)).
 
 ## Install
 
@@ -24,9 +25,7 @@ pip install git+https://github.com/ck37/clinsent/
 
 ### Python
 
-We recommend python version 3.8, as [3.9 is not currently supported by
-PyRush](https://github.com/jianlins/PyRuSH/issues/1), a dependency of
-MedSpacy.
+This package is tested with python version 3.8, but 3.9 should also work. 
 
 ## Examples
 
@@ -74,15 +73,9 @@ Examples to be added.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-cobert2022" class="csl-entry">
+<div id="ref-kennedy2023" class="csl-entry">
 
-Cobert, Julien, Catherine Chiu, Allyson Cook, Oksana Gologorskaya,
-Hassan Farhan, Mary Han, MacGregor Hodgson, Danny Lazzereschi,
-Deepshikha Ashana, Sei Lee, Alexander K Smith, Romain Pirracchio, and
-Chris J Kennedy. 2022. “Negativity and Positivity in the Intensive Care
-Unit: Establishing a Proof-of-Concept for Automated Sentiment Capture in
-the Electronic Health Record.” *Under Review*.
-
+Kennedy, C. J., Chiu, C., Chapman, A. C., Gologorskaya, O., Farhan, H., Han, M., Hodgson, M., Lazzareschi, D., Ashana, D., Lee, S., Smith, A. K., Espejo, E., Boscardin, J., Pirracchio, R., & Cobert, J. (2023). [Negativity and Positivity in the ICU: Exploratory Development of Automated Sentiment Capture in the Electronic Health Record. Critical Care Explorations](https://doi.org/10.1097/CCE.0000000000000960), 5(10), e0960.
 </div>
 
 </div>
